@@ -1,5 +1,5 @@
 module github.com/AbderrahimBouhdida/chi
-
+replace github.com/jpillora/chisel => github.com/AbderrahimBouhdida/chi latest
 go 1.13
 
 require (
