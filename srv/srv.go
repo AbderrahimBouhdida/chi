@@ -10,12 +10,12 @@ import (
 	"regexp"
 	"time"
 
+	chshare "github.com/AbderrahimBouhdida/chi/share"
+	"github.com/AbderrahimBouhdida/chi/share/ccrypto"
+	"github.com/AbderrahimBouhdida/chi/share/cio"
+	"github.com/AbderrahimBouhdida/chi/share/cnet"
+	"github.com/AbderrahimBouhdida/chi/share/settings"
 	"github.com/gorilla/websocket"
-	chshare "github.com/jpillora/chisel/share"
-	"github.com/jpillora/chisel/share/ccrypto"
-	"github.com/jpillora/chisel/share/cio"
-	"github.com/jpillora/chisel/share/cnet"
-	"github.com/jpillora/chisel/share/settings"
 	"github.com/jpillora/requestlog"
 	"golang.org/x/crypto/ssh"
 )

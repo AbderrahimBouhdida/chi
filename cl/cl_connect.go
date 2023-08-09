@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
+	chshare "github.com/AbderrahimBouhdida/chi/share"
+	"github.com/AbderrahimBouhdida/chi/share/cnet"
+	"github.com/AbderrahimBouhdida/chi/share/cos"
+	"github.com/AbderrahimBouhdida/chi/share/settings"
 	"github.com/gorilla/websocket"
 	"github.com/jpillora/backoff"
-	chshare "github.com/jpillora/chisel/share"
-	"github.com/jpillora/chisel/share/cnet"
-	"github.com/jpillora/chisel/share/cos"
-	"github.com/jpillora/chisel/share/settings"
 	"golang.org/x/crypto/ssh"
 )
 

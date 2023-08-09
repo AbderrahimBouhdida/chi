@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	chclient "github.com/jpillora/chisel/cl"
-	chserver "github.com/jpillora/chisel/srv"
+	chclient "github.com/AbderrahimBouhdida/chi/cl"
+	chserver "github.com/AbderrahimBouhdida/chi/srv"
 )
 
 const debug = true

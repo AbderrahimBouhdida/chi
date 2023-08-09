@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jpillora/chisel/share/cio"
-	"github.com/jpillora/chisel/share/settings"
+	"github.com/AbderrahimBouhdida/chi/share/cio"
+	"github.com/AbderrahimBouhdida/chi/share/settings"
 )
 
 func (t *Tunnel) handleUDP(l *cio.Logger, rwc io.ReadWriteCloser, hostPort string) error {

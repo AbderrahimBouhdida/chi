@@ -1,6 +1,6 @@
 # Chisel
 
-[![GoDoc](https://godoc.org/github.com/jpillora/chisel?status.svg)](https://godoc.org/github.com/jpillora/chisel) [![CI](https://github.com/jpillora/chisel/workflows/CI/badge.svg)](https://github.com/jpillora/chisel/actions?workflow=CI)
+[![GoDoc](https://godoc.org/github.com/AbderrahimBouhdida/chi?status.svg)](https://godoc.org/github.com/AbderrahimBouhdida/chi) [![CI](https://github.com/AbderrahimBouhdida/chi/workflows/CI/badge.svg)](https://github.com/AbderrahimBouhdida/chi/actions?workflow=CI)
 
 Chisel is a fast TCP/UDP tunnel, transported over HTTP, secured via SSH. Single executable including both client and server. Written in Go (golang). Chisel is mainly useful for passing through firewalls, though it can also be used to provide a secure endpoint into your network.
 
@@ -35,16 +35,16 @@ Chisel is a fast TCP/UDP tunnel, transported over HTTP, secured via SSH. Single 
 
 ### Binaries
 
-[![Releases](https://img.shields.io/github/release/jpillora/chisel.svg)](https://github.com/jpillora/chisel/releases) [![Releases](https://img.shields.io/github/downloads/jpillora/chisel/total.svg)](https://github.com/jpillora/chisel/releases)
+[![Releases](https://img.shields.io/github/release/AbderrahimBouhdida/chi.svg)](https://github.com/AbderrahimBouhdida/chi/releases) [![Releases](https://img.shields.io/github/downloads/AbderrahimBouhdida/chi/total.svg)](https://github.com/AbderrahimBouhdida/chi/releases)
 
-See [the latest release](https://github.com/jpillora/chisel/releases/latest) or download and install it now with `curl https://i.jpillora.com/chisel! | bash`
+See [the latest release](https://github.com/AbderrahimBouhdida/chi/releases/latest) or download and install it now with `curl https://i.jpillora.com/chisel! | bash`
 
 ### Docker
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/jpillora/chisel.svg)](https://hub.docker.com/r/jpillora/chisel/) [![Image Size](https://img.shields.io/docker/image-size/jpillora/chisel/latest)](https://microbadger.com/images/jpillora/chisel)
+[![Docker Pulls](https://img.shields.io/docker/pulls/AbderrahimBouhdida/chi.svg)](https://hub.docker.com/r/AbderrahimBouhdida/chi/) [![Image Size](https://img.shields.io/docker/image-size/AbderrahimBouhdida/chi/latest)](https://microbadger.com/images/AbderrahimBouhdida/chi)
 
 ```sh
-docker run --rm -it jpillora/chisel --help
+docker run --rm -it AbderrahimBouhdida/chi --help
 ```
 
 ### Fedora
@@ -58,7 +58,7 @@ sudo dnf -y install chisel
 ### Source
 
 ```sh
-$ go install github.com/jpillora/chisel@latest
+$ go install github.com/AbderrahimBouhdida/chi@latest
 ```
 
 ## Demo
@@ -99,7 +99,7 @@ $ chisel --help
     client - runs chisel in client mode
 
   Read more:
-    https://github.com/jpillora/chisel
+    https://github.com/AbderrahimBouhdida/chi
 
 ```
 <!--/tmpl-->
@@ -194,7 +194,7 @@ $ chisel server --help
     X.Y.Z
 
   Read more:
-    https://github.com/jpillora/chisel
+    https://github.com/AbderrahimBouhdida/chi
 
 ```
 <!--/tmpl-->
@@ -334,7 +334,7 @@ $ chisel client --help
     X.Y.Z
 
   Read more:
-    https://github.com/jpillora/chisel
+    https://github.com/AbderrahimBouhdida/chi
 
 ```
 <!--/tmpl-->
@@ -357,7 +357,7 @@ Internally, this is done using the _Password_ authentication method provided by 
 docker run \
   --name chisel -p 9312:9312 \
   -d --restart always \
-  jpillora/chisel srv -p 9312 --socks5 --key supersecret
+  AbderrahimBouhdida/chi srv -p 9312 --socks5 --key supersecret
 ```
 
 2. Connect your chisel client (using server's fingerprint)
@@ -389,9 +389,9 @@ Since WebSockets support is required:
 
 - http://golang.org/doc/code.html
 - http://golang.org/doc/effective_go.html
-- `github.com/jpillora/chisel/share` contains the shared package
-- `github.com/jpillora/chisel/server` contains the server package
-- `github.com/jpillora/chisel/client` contains the client package
+- `github.com/AbderrahimBouhdida/chi/share` contains the shared package
+- `github.com/AbderrahimBouhdida/chi/server` contains the server package
+- `github.com/AbderrahimBouhdida/chi/client` contains the client package
 
 ## Changelog
 
@@ -406,4 +406,4 @@ Since WebSockets support is required:
 
 ## License
 
-[MIT](https://github.com/jpillora/chisel/blob/master/LICENSE) © Jaime Pillora
+[MIT](https://github.com/AbderrahimBouhdida/chi/blob/master/LICENSE) © Jaime Pillora
